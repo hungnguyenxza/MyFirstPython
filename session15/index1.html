@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        // Trong này là code Javascript
+        // let name = "A";
+        // name = "Pham Van A";
+        // console.log(name); //print()
+
+        // let age = 16;
+        // console.log(age);
+        // let temp = 36.5;
+        // let goToSchool = true;
+        // let soThich = ["Python", "Javascript", "HTML"];
+        // let person = {
+        //     "name": "A",
+        //     "age": 16,
+        //     "favorite": ["Python", "Javascript", "HTML"]
+        // };
+        // console.log(temp);
+        // console.log(goToSchool);
+        // console.log(soThich);
+        // console.log(person);
+
+        // let name = prompt("Nhap ten: ");
+        // console.log("Xin chao: ", name);
+        // console.log("Xin chao: "+ name);
+
+        // let age = Number(prompt("Nhap tuoi: "));
+        // console.log("Ban " + age + " tuoi");
+        
+        // let number = 100;
+        // console.log(number++);//100
+        // console.log(number);//101
+        
+        // number = 100;
+        // console.log(++number); //101
+        // console.log(number); //101
+        
+        // let N = Number(prompt("Nhap so N: "));
+        // let sum = 0;
+        // for (let index = 2; index <= 2*N; index += 2) {
+        //     sum += 1/index;
+        // }
+        // console.log(sum);
+
+        // let N = Number(prompt("Nhap so N: "));
+        // let index = 1;
+        // let sum = 0;
+        // while(true){
+        //     index++;
+        //     if(index <= 2*N){
+        //         if (index % 2 == 1) {
+        //             continue;
+        //         }
+        //         sum += 1/index;
+        //     }else{
+        //         break;
+        //     }
+
+        // }
+        //let soThich = ["Python", "Javascript", "Ruby"]
+        // soThich.forEach(element => {
+        //     console.log(element);
+        // });
+
+        // for (const key in soThich) {
+        //     console.log(key);
+        // }
+        // for (const iterator of soThich) {
+        //     console.log(iterator);
+        // }
+
+        let month = Number(prompt("Nhap thang: "));
+
+        switch(month){
+            case 1:
+            case 3:
+            case 5:
+            case 7:
+            case 8:
+            case 10:
+            case 12:
+                console.log("Co 31 ngay");
+                break;
+            case 4:
+            case 6:
+            case 9:
+            case 11:
+                console.log("Co 30 ngay");
+            case 2:
+                console.log("Co 28 hoac 29 ngay");
+                break;
+            default:
+                console.log("Sai thang roi");
+        }
+
+    </script>
+</body>
+</html>
